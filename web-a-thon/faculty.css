@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    overflow: hidden;
+  }
+  .card img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+  }
+  .card-content {
+    padding: 20px;
+  }
+  .card-content h2 {
+    margin-top: 0;
+  }
+
+.mainfac{
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+}
